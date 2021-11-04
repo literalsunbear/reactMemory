@@ -15,6 +15,9 @@ html, body {
 
   border: 1px solid black;
 }
+.header img {
+  height: 100%;
+}
 .card-grid {
   width: 50vw;
   height: 50vw;
