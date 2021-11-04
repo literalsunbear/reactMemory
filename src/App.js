@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react'
+import {useState} from 'react'
 import cardList from './assets/cardList'
 import CardGrid from './components/CardGrid'
 import './App.css';
