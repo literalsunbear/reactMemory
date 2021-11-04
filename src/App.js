@@ -2,6 +2,7 @@ import {useState} from 'react'
 import cardList from './assets/cardList'
 import CardGrid from './components/CardGrid'
 import ScoreBox from './components/ScoreBox'
+import Header from './components/Header'
 import './App.css';
 
 const App = ()=> {
@@ -47,6 +48,7 @@ const App = ()=> {
   }
   return (
     <>
+    <Header/>
     <ScoreBox 
       currentScore={score}
       highScore={highScore}
