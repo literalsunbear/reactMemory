@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
-import cardList from './cardList'
-import CardGrid from './CardGrid'
+import cardList from './assets/cardList'
+import CardGrid from './components/CardGrid'
 import './App.css';
 
 const App = ()=> {
