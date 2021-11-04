@@ -21,7 +21,7 @@ const App = ()=> {
     setCards(tempArr)
     console.log('shuffled the cards')
     console.log(cards)
-}
+  }
   const handleClick = (card) => {
     shuffleCards()
     playRound(card)
@@ -33,8 +33,14 @@ const App = ()=> {
       setClickedCards(tempArr)
       setScore(score + 1)
     } else {
-      alert('you clicked this already!')
+      restartRound()
     }
+  }
+  const restartRound = () => {
+    alert('oof, better luck next time')
+    setScore(0)
+    const tempArr = []
+    setClickedCards(tempArr)
   }
   return (
     <>
