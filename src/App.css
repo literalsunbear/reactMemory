@@ -1,8 +1,21 @@
+.card-grid {
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+  
+}
 .card {
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 100%;
   border: 1px solid black;
   margin: 2em;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 .clicked-true {
   background: red;

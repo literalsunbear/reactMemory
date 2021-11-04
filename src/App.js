@@ -5,6 +5,7 @@ import './App.css';
 
 const App = ()=> {
   const [score, setScore] = useState(0)
+  const [highScore, setHighScore] = useState(0)
   const [cards, setCards] = useState(cardList)
   const [clickedCards, setClickedCards] = useState([])
   
@@ -38,13 +39,17 @@ const App = ()=> {
   }
   const restartRound = () => {
     alert('oof, better luck next time')
+    setHighScore(score)
     setScore(0)
     const tempArr = []
     setClickedCards(tempArr)
   }
   return (
     <>
-    <h1>{score}</h1>
+    <h1>current score:</h1>
+    <h2>{score}</h2>
+    <h1>high score:</h1>
+    <h2>{highScore}</h2>
     <CardGrid
       handleClick={handleClick}
       cards={cards}
