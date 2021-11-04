@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import cardList from './assets/cardList'
 import CardGrid from './components/CardGrid'
+import ScoreBox from './components/ScoreBox'
 import './App.css';
 
 const App = ()=> {
@@ -46,10 +47,10 @@ const App = ()=> {
   }
   return (
     <>
-    <h1>current score:</h1>
-    <h2>{score}</h2>
-    <h1>high score:</h1>
-    <h2>{highScore}</h2>
+    <ScoreBox 
+      currentScore={score}
+      highScore={highScore}
+    />
     <CardGrid
       handleClick={handleClick}
       cards={cards}
