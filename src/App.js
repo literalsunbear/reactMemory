@@ -41,7 +41,9 @@ const App = ()=> {
   }
   const restartRound = () => {
     alert(`aw dang, you already clicked that. try to beat ${score} this time!`)
-    setHighScore(score)
+    if(score > highScore) {
+      setHighScore(score)
+    }
     setScore(0)
     const tempArr = []
     setClickedCards(tempArr)
