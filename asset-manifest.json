@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/reactMemory/static/css/main.d2a5bc1d.chunk.css",
+    "main.js": "/reactMemory/static/js/main.2ffac206.chunk.js",
+    "main.js.map": "/reactMemory/static/js/main.2ffac206.chunk.js.map",
+    "runtime-main.js": "/reactMemory/static/js/runtime-main.87f88c4e.js",
+    "runtime-main.js.map": "/reactMemory/static/js/runtime-main.87f88c4e.js.map",
+    "static/js/2.73baa3ed.chunk.js": "/reactMemory/static/js/2.73baa3ed.chunk.js",
+    "static/js/2.73baa3ed.chunk.js.map": "/reactMemory/static/js/2.73baa3ed.chunk.js.map",
+    "index.html": "/reactMemory/index.html",
+    "static/css/main.d2a5bc1d.chunk.css.map": "/reactMemory/static/css/main.d2a5bc1d.chunk.css.map",
+    "static/js/2.73baa3ed.chunk.js.LICENSE.txt": "/reactMemory/static/js/2.73baa3ed.chunk.js.LICENSE.txt",
+    "static/media/card-BMO.0acb0685.png": "/reactMemory/static/media/card-BMO.0acb0685.png",
+    "static/media/card-LSP-2.a691ffb5.png": "/reactMemory/static/media/card-LSP-2.a691ffb5.png",
+    "static/media/card-LSP.0549c8c6.png": "/reactMemory/static/media/card-LSP.0549c8c6.png",
+    "static/media/card-bubblegum.d266deb9.png": "/reactMemory/static/media/card-bubblegum.d266deb9.png",
+    "static/media/card-cake.42fbb2d5.png": "/reactMemory/static/media/card-cake.42fbb2d5.png",
+    "static/media/card-choose-goose.0ca84de4.png": "/reactMemory/static/media/card-choose-goose.0ca84de4.png",
+    "static/media/card-finn.1b7e3efb.png": "/reactMemory/static/media/card-finn.1b7e3efb.png",
+    "static/media/card-fiona.d9d37a66.png": "/reactMemory/static/media/card-fiona.d9d37a66.png",
+    "static/media/card-gumball.4510c422.png": "/reactMemory/static/media/card-gumball.4510c422.png",
+    "static/media/card-ice-king.a56ea7f2.png": "/reactMemory/static/media/card-ice-king.a56ea7f2.png",
+    "static/media/card-ice-queen.c596d634.png": "/reactMemory/static/media/card-ice-queen.c596d634.png",
+    "static/media/card-jake.1e27c240.png": "/reactMemory/static/media/card-jake.1e27c240.png",
+    "static/media/card-marceline.3ed1b94c.png": "/reactMemory/static/media/card-marceline.3ed1b94c.png",
+    "static/media/card-marshall.e15fbd13.png": "/reactMemory/static/media/card-marshall.e15fbd13.png",
+    "static/media/card-memow.5338e071.png": "/reactMemory/static/media/card-memow.5338e071.png",
+    "static/media/card-tiffany.bc8c3c9a.png": "/reactMemory/static/media/card-tiffany.bc8c3c9a.png",
+    "static/media/header-bg.e9987d9d.jpeg": "/reactMemory/static/media/header-bg.e9987d9d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87f88c4e.js",
+    "static/js/2.73baa3ed.chunk.js",
+    "static/css/main.d2a5bc1d.chunk.css",
+    "static/js/main.2ffac206.chunk.js"
+  ]
+}
