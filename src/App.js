@@ -50,11 +50,9 @@ const App = ()=> {
   }
   return (
     <>
-    <Header/>
-    <ScoreBox 
-      currentScore={score}
-      highScore={highScore}
-    />
+    <Header
+    currentScore={score}
+    highScore={highScore}/>
     <CardGrid
       handleClick={handleClick}
       cards={cards}
