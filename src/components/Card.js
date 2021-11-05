@@ -3,7 +3,6 @@ const Card = props => {
     return(
         <Tilt
         tiltReverse={true}
-        glareEnable={true}
         scale={1.1}
         transitionSpeed={600}>
             <div
