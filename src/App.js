@@ -40,7 +40,7 @@ const App = ()=> {
     }
   }
   const restartRound = () => {
-    alert('oof, better luck next time')
+    alert(`aw dang, you already clicked that. try to beat ${score} this time!`)
     setHighScore(score)
     setScore(0)
     const tempArr = []

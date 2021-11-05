@@ -4,10 +4,10 @@ const Header = () => {
     return(
         <div 
         className='header'>
+            <h1>MEMORY TIME</h1>
             <img
-            src={background}></img>
-            <img
-            src={title}></img>
+            src={background}
+            alt='Jake The Dog reading a book'></img>
         </div>
     )
 }
