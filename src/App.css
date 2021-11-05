@@ -39,9 +39,7 @@ html, body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
   grid-auto-rows: minmax(100px, auto);
-  
 }
 .card {
   margin: 2em;
