@@ -3,6 +3,7 @@ const CardGrid = props => {
     const mappedCards = props.cards.map(card => {
         return <Card 
                 flavor={card.text}
+                imgURL={card.imgURL}
                 handleClick={props.handleClick}
                 />    
     })

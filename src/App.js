@@ -1,10 +1,12 @@
-import {useEffect, useState} from 'react'
-import cardList from './cardList'
-import CardGrid from './CardGrid'
+import {useState} from 'react'
+import cardList from './assets/cardList'
+import CardGrid from './components/CardGrid'
+import Header from './components/Header'
 import './App.css';
 
 const App = ()=> {
   const [score, setScore] = useState(0)
+  const [highScore, setHighScore] = useState(0)
   const [cards, setCards] = useState(cardList)
   const [clickedCards, setClickedCards] = useState([])
   
@@ -21,7 +23,7 @@ const App = ()=> {
     setCards(tempArr)
     console.log('shuffled the cards')
     console.log(cards)
-}
+  }
   const handleClick = (card) => {
     shuffleCards()
     playRound(card)
@@ -33,12 +35,23 @@ const App = ()=> {
       setClickedCards(tempArr)
       setScore(score + 1)
     } else {
-      alert('you clicked this already!')
+      restartRound()
     }
+  }
+  const restartRound = () => {
+    alert(`aw dang, you already clicked that. try to beat ${score} this time!`)
+    if(score > highScore) {
+      setHighScore(score)
+    }
+    setScore(0)
+    const tempArr = []
+    setClickedCards(tempArr)
   }
   return (
     <>
-    <h1>{score}</h1>
+    <Header
+    currentScore={score}
+    highScore={highScore}/>
     <CardGrid
       handleClick={handleClick}
       cards={cards}
